@@ -49,6 +49,9 @@ namespace flush_process
                 // System.IO.File.AppendAllText(log_file_path, ">> " + _command_[i] + "\r\n");
                 p.StandardInput.WriteLine(_command_[i]);
             }
+
+            MessageBox.Show("清理完成");
+
         }
 
 
