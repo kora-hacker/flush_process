@@ -1,0 +1,8 @@
+C:\Users\CIA003HX\Desktop\combox\combox\bin\Release\combox.exe
+C:\Users\CIA003HX\Desktop\combox\combox\bin\Release\combox.pdb
+C:\Users\CIA003HX\Desktop\combox\combox\obj\Release\combox.csprojResolveAssemblyReference.cache
+C:\Users\CIA003HX\Desktop\combox\combox\obj\Release\combox.Form1.resources
+C:\Users\CIA003HX\Desktop\combox\combox\obj\Release\combox.Properties.Resources.resources
+C:\Users\CIA003HX\Desktop\combox\combox\obj\Release\combox.csproj.GenerateResource.Cache
+C:\Users\CIA003HX\Desktop\combox\combox\obj\Release\combox.exe
+C:\Users\CIA003HX\Desktop\combox\combox\obj\Release\combox.pdb
