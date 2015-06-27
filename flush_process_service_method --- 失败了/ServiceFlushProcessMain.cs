@@ -12,6 +12,27 @@ namespace flush_process
 {
     public partial class ServiceFlushProcessMain : ServiceBase
     {
+
+        protected override void WndProc(ref Message m)
+        {
+            const int WM_HOTKEY = 0x0312;
+            switch (m.Msg)
+            {
+                case WM_HOTKEY:
+                    {
+                        //MessageBox.Show("102-a");
+                        switch (m.WParam.ToInt32())
+                        {
+                            case 102:
+                                MessageBox.Show("102-a");
+                                break;
+                        }
+                        break;
+                    }
+            }
+            base.WndProc(ref m);
+        }
+
         public ServiceFlushProcessMain()
         {
             InitializeComponent();
